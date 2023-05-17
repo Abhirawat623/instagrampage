@@ -1,0 +1,39 @@
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index:1;
+}
+.nav_logo{
+    width:120px;
+    margin: 40px;
+}
+
+.bottons{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    border:0;
+    border-color: rgb(152, 252, 152)yellow;
+    color:white;
+    background: 0;
+    margin: 2px;
+    padding: 5px 5px 10px 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(225, 225, 260, 0.126);
+}
+
+.button > span{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
